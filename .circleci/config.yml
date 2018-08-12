@@ -40,3 +40,6 @@ jobs:
         
       # run tests!
       - run: gradle test
+  notify:
+  webhooks:
+    - url: https://webhook.site/fa35038b-31c4-4181-ad85-26def5bafe76
